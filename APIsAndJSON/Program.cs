@@ -15,7 +15,8 @@
             RonVSKanyeAPI.RonQuote();
             RonVSKanyeAPI.KanyeQuote();
             RonVSKanyeAPI.RonQuote();
-            //OpenWeatherMapAPI.Weather();
+            // This will give me the weather
+            OpenWeatherMapAPI.Weather();
         }
     }
 }
