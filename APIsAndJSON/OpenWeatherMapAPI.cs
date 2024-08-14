@@ -21,7 +21,7 @@ namespace APIsAndJSON
             var zip = Console.ReadLine();
 
             //This is the url
-            var url = $"https://api.openweathermap.org/data/2.5/weather?zip={zip}&appid{apiKey}&units=imperial";
+            var url = $"https://api.openweathermap.org/data/2.5/weather?zip={zip},us&appid={apiKey}&units=imperial";
             var client = new HttpClient();
             
             //This will give us the result
